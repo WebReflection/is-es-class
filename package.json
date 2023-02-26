@@ -9,7 +9,11 @@
     "coveralls": "c8 report --reporter=text-lcov | coveralls",
     "test": "c8 node test/index.js"
   },
-  "keywords": ["ES2015", "class", "detection"],
+  "keywords": [
+    "ES2015",
+    "class",
+    "detection"
+  ],
   "author": "Andrea Giammarchi",
   "license": "ISC",
   "devDependencies": {
@@ -25,5 +29,13 @@
       "default": "./cjs/index.js"
     },
     "./package.json": "./package.json"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebReflection/is-es-class.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WebReflection/is-es-class/issues"
+  },
+  "homepage": "https://github.com/WebReflection/is-es-class#readme"
 }
