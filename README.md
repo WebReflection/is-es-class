@@ -4,6 +4,8 @@
 
 The only reasonable way to understand if a class has been defined, or transpiled, as such.
 
+Explained in [this StackOverflow answer](https://stackoverflow.com/questions/30758961/how-to-check-if-a-variable-is-an-es6-class-declaration/75567955#75567955).
+
 ```js
 // const isESClass = require('is-es-class');
 import isESClass from 'is-es-class';
