@@ -6,8 +6,8 @@
   "scripts": {
     "build": "npm run cjs && npm run test",
     "cjs": "ascjs --no-default esm cjs",
-    "coveralls": "c8 report --reporter=text-lcov | coveralls",
-    "test": "c8 node test/index.js"
+    "test": "c8 node test/index.js",
+    "coverage": "mkdir -p ./coverage; c8 report --reporter=text-lcov > ./coverage/lcov.info"
   },
   "keywords": [
     "ES2015",
@@ -18,8 +18,7 @@
   "license": "ISC",
   "devDependencies": {
     "ascjs": "^5.0.1",
-    "c8": "^7.13.0",
-    "coveralls": "^3.1.1"
+    "c8": "^7.13.0"
   },
   "module": "./esm/index.js",
   "type": "module",
